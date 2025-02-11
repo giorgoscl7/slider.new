@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slides">
+        <div class="list">
+            <div class="item">
+                <img src="images/barca.food.png">
+            </div>
+            <div class="item">
+                <img src="images/barca.picaso.png">
+            </div>
+            <div class="item">
+                <img src="images/barcelona.photo.site.png">
+            </div>
+            <div class="item">
+                <img src="images/barcelona.stadium.png">
+            </div>
+            <div class="item">
+                <img src="images/barceloneta.night.view.png">
+            </div>
+            <div class="item">
+                <img src="images/park.guell.png">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev" onclick="setPreviousSlide()"><</button>
+
+            <button id="next" onclick="setNextSlide()">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="button-stop-start">
+    <button onclick="stopInterval()">stop</button>
+    <button onclick="startInterval()">start</button>
+    </div>
+    <script src="script.js">defer</script>
+</body>
+</html>
